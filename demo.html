@@ -1,0 +1,66 @@
+<html>
+
+	<head>
+
+		<title>jQuery.unparam</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script type="text/javascript" src="https://raw.github.com/yeikos/jquery.unparam/master/jquery.unparam.js"></script>
+
+		<script type="text/javascript">
+
+			var input = {
+
+				a: {
+
+					0: 'hello',
+					x: 'from',
+					2: 'javascript',
+					z: 'language'
+
+				},
+
+				b: {
+
+					c: {
+
+						d: {
+
+							2: 'two'
+
+						}
+
+					},
+
+					3: 'three'
+
+				},
+
+				c: {
+
+					0: 'one',
+					1: 'two',
+					2: 'three'
+					
+				}
+
+			};
+
+			var output = $.unparam($.param(input));
+
+			console.log('(input == output) is ' + (JSON.stringify(input) === JSON.stringify(output)));
+
+			console.log('input', input);
+			console.log('output', output);
+
+		</script>
+
+	</head>
+
+	<body>
+
+		See console log.
+		
+	</body>
+
+</html>
