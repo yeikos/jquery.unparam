@@ -11,6 +11,11 @@ How to use
 
 	$.unparam(string)
 
+Demo online
+--------------------------------------
+
+http://jsfiddle.net/yeikos/9Sv3p/
+
 Example
 --------------------------------------
 
