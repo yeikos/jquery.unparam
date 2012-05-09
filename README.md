@@ -6,6 +6,11 @@ What is this?
 
 it's a jquery plugin that inverts the $.param function (http://api.jquery.com/jQuery.param/).
 
+More info
+--------------------------------------
+
+http://www.yeikos.com/2012/05/jqueryunparam-inversa-de-param.html
+
 How to use
 --------------------------------------
 
