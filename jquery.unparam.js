@@ -30,7 +30,7 @@
 
 		// Decodificamos la entrada y la dividimos en bloques
 
-		items = decodeURIComponent(input).split('&');
+		items = input.split('&');
 
 		// Es necesario que los datos anteriores no se encuentren vacíos
 
@@ -80,7 +80,7 @@
 
 				// Guardamos el resultado directamente
 
-				result[key] = value;
+				result[key] = decodeURIComponent(value);
 
 				// Continuamos con el siguiente dato
 
